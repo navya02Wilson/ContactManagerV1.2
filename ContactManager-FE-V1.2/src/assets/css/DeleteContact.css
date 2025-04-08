@@ -1,0 +1,59 @@
+.delete-contact-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.delete-contact-modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+}
+
+.delete-contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-contact-close-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.delete-contact-body {
+    margin: 20px 0;
+}
+
+.delete-contact-modal-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-contact-cancel-button,
+.delete-contact-confirm-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-contact-cancel-button {
+    background-color: #f0f0f0;
+}
+
+.delete-contact-confirm-button {
+    background-color: #f44336;
+    color: white;
+}
